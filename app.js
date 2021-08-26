@@ -16,10 +16,6 @@ const start = async () =>{
 //middleware
 app.use(express.json())
 //routes 
-app.get('/hello',(req,res)=>{
-    res.send('Task')
-})
-
 
 app.use('/api/v1/tasks',tasks)
 
